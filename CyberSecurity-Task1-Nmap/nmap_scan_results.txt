@@ -1,0 +1,30 @@
+OASIS INFOBYTE - SECURITY ANALYST
+TASK 1: BASIC NETWORK SCANNING WITH NMAP
+
+Target IP: 10.0.2.15
+Target: Kali Linux Virtual Machine
+
+BASIC NMAP SCAN
+Command: nmap 10.0.2.15
+
+Result:
+Host is up.
+1000 TCP ports were filtered (no-response).
+No open ports were identified.
+
+SERVICE/VERSION SCAN
+Command: nmap -sV 10.0.2.15
+
+Result:
+Host is up.
+1000 TCP ports were filtered (no-response).
+No open services were identified.
+
+OS DETECTION
+Command: sudo nmap -O  10.0.2.15
+
+Result:
+Host is up.
+1000 TCP ports were filtered (no-response).
+Nmap could not identify a specific operating system because too many fingerprints matched.
+Network distance: 0 hops.
